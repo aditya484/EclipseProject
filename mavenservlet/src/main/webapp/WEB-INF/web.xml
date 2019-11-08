@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>demo</servlet-name>
+  <servlet-class>com.learning.servlet.DemoServlet</servlet-class>
+  <init-param>
+	  <param-name>servlet-owner</param-name>
+	  <param-value>MavenServlet</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>demo</servlet-name>
+  <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+
+  <context-param>
+  <param-name>app-owner</param-name>
+  <param-value>Basic Servlet Application</param-value>
+  </context-param>
+  
+  <welcome-file-list>
+  <welcome-file>demo.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
