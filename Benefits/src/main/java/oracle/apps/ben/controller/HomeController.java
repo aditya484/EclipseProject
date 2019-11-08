@@ -25,6 +25,7 @@ public class HomeController  implements ServletConfigAware{
 	@RequestMapping(path="/", method= RequestMethod.GET)
 	public String getHomePage() {
 		System.out.println("HomePage method called..");
+		System.out.println("Adding a new Sysout in the HOME Controller to check");
 		return "index";
 	}
 	
