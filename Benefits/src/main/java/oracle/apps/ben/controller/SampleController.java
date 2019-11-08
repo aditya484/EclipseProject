@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import oracle.apps.ben.service.UserService;
 
 @Controller
-public class BenefitsController2 {
+public class SampleController {
 	
 	@Autowired
 	UserService userService;
